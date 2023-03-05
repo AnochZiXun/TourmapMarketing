@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="" antiJARLocking="true">
+	<ResourceLink
+		global="jdbc/TourmapDS"
+		name="jdbc/TourmapDS"
+		type="javax.sql.DataSource"
+	/>
+	<Realm
+		className="org.apache.catalina.realm.DataSourceRealm"
+
+		allRolesMode="authOnly"
+		dataSourceName="jdbc/TourmapDS"
+		digest="MD5"
+		userCredCol="shadow"
+		userNameCol="login"
+		userTable='"Administrator"'
+	/>
+	<!--
+	<ResourceLink
+		global="jdbc/TourmapDS"
+		name="jdbc/TourmapDS"
+		type="javax.sql.DataSource"
+	/>
+	<Realm
+		className="org.apache.catalina.realm.DataSourceRealm"
+
+		allRolesMode="authOnly"
+		dataSourceName="jdbc/TourmapDS"
+		digest="MD5"
+		userCredCol="shadow"
+		userNameCol="login"
+		userTable='"Administrator"'
+	/>
+	-->
+</Context>

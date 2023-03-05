@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<HTML dir="ltr" lang="zh-TW">
+	<HEAD>
+		<META charset="UTF-8">
+		<LINK href="/STYLE/default.css" media="all" rel="stylesheet" type="text/css">
+		<LINK href="/STYLE/signUp.css" media="all" rel="stylesheet" type="text/css">
+		<SCRIPT src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></SCRIPT>
+		<SCRIPT src="/SCRIPT/unslider.min.js"></SCRIPT>
+		<SCRIPT src="/SCRIPT/default.js"></SCRIPT>
+		<SCRIPT src="/SCRIPT/signUpAgent.js"></SCRIPT>
+		<TITLE>旅途國際 &#187; 加入業務團隊</TITLE>
+	</HEAD>
+	<BODY>
+		<DIV class="wallpaper">
+			<HEADER>
+				<DIV class="headerTop">
+					<DIV class="logo">
+						<A href="http://tour-map.net/" target="_blank"><IMG alt="瞜苟" src="/IMG/logo.png"></A>
+					</DIV>
+					<DIV class="headerLeft">
+						<DIV class="headerLeftTop">
+							<DIV class="headerName">
+								<IMG alt="旅途觀止國際行銷雲端平台" src="/IMG/title.png">
+							</DIV>
+							<DIV class="headerSearch">
+								<!--<gcse:searchbox-only></gcse:searchbox-only>-->
+							</DIV>
+							<DIV class="headerButton01">
+								<A href="https://www.facebook.com/">
+									<IMG alt="臉書" src="/IMG/fbBtn.png">
+								</A>
+							</DIV>
+							<DIV class="headerButton02">
+								<A href="/logIn.asp">
+									<IMG alt="登入" src="/IMG/loginBtn.png">
+								</A>
+							</DIV>
+						</DIV>
+						<NAV>
+							<A href="/">首頁</A>
+							<A href="/announcement/">活動消息</A>
+							<A href="/join/vendor/">加入微網店家</A>
+							<A href="/join/agent/">加入業務團隊</A>
+							<A href="/join/advertiser/">加入旅圖廣告</A>
+							<A href="">國際金融</A>
+							<A href="">其他產品</A>
+							<A href="/contactUs/">連絡我們</A>
+							<A href="http://tour-map.net/" target="_blank">旅圖觀止</A>
+						</NAV>
+					</DIV>
+				</DIV>
+			</HEADER>
+
+			<DIV class="headerBanner">
+				<UL>
+					<LI><IMG alt="橫幅1" src="/banner01.png"></LI>
+					<LI><IMG alt="橫幅2" src="/banner02.png"></LI>
+				</UL>
+			</DIV>
+
+			<DIV class="leftBar">
+				<P><IMG alt="QR-Code 快速加入" src="/IMG/qrcodeArea.png"></P>
+
+				<A href="/join/vendor/"><IMG alt="加入微網店家" src="/IMG/qrcode01.png"></A>
+				<UL>
+					<LI>
+						<A href="/join/vendor/">加入微網店家</A>
+					</LI>
+				</UL>
+
+				<A href="/join/agent/"><IMG alt="加入業務團隊" src="/IMG/qrcode02.png"></A>
+				<UL>
+					<LI>
+						<A href="/join/agent/">加入業務團隊</A>
+					</LI>
+				</UL>
+
+				<A href="/join/advertiser/"><IMG alt="加入旅圖廣告" src="/IMG/qrcode03.png"></A>
+				<UL>
+					<LI>
+						<A href="/join/advertiser/">加入旅圖廣告</A>
+					</LI>
+				</UL>
+
+				<A href=""><IMG alt="國際金融" src="/IMG/qrcode04.png"></A>
+				<UL>
+					<LI>
+						<A href="">國際金融</A>
+					</LI>
+				</UL>
+
+				<A href=""><IMG alt="其他產品" src="/IMG/qrcode05.png"></A>
+				<UL>
+					<LI>
+						<A href="">其他產品</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+
+		<DIV class="rightContent">
+			<DIV>
+				<DIV id="step1">
+					<H1>加入業務團隊說明</H1>
+					<DIV>
+						<P>asdsadabds</P>
+
+						<P>fgdfg</P>
+
+						<P>s</P>
+
+						<P>sg</P>
+
+						<P>s</P>
+
+						<P>sdfgfg</P>
+					</DIV>
+					<P style="text-align:center">
+						<A class="theButton" id="goToStep2">確定送出</A>
+					</P>
+				</DIV>
+				<DIV id="step2">
+					<H1>填寫基本資料</H1>
+					<H2>
+						<LABEL>
+							<INPUT name="individual" type="radio" value="1">
+							<SPAN>個人身份</SPAN>
+						</LABEL>
+						<LABEL>
+							<INPUT name="individual" type="radio" value="0">
+							<SPAN>公司身份</SPAN>
+						</LABEL>
+					</H2>
+					<FORM action="/join/vendor.asp" method="POST" enctype="multipart/form-data">
+						<TABLE>
+							<CAPTION>
+								錯誤訊息
+							</CAPTION>
+							<TR>
+								<TH class="must">
+									<LABEL for="name">姓名或公司名</LABEL>
+								</TH>
+								<TD>
+									<INPUT id="name" name="name" required="" type="text" value="{name}">
+								</TD>
+								<TH class="must">
+									<LABEL for="cellular">行動電話</LABEL>
+								</TH>
+								<TD>
+									<INPUT id="cellular" name="cellular" required="" type="text" value="{cellular}">
+								</TD>
+							</TR>
+							<TR>
+								<TH>
+									<LABEL for="address">地址</LABEL>
+								</TH>
+								<TD colspan="3">
+									<INPUT id="address" name="address" type="text" value="{address}">
+								</TD>
+							</TR>
+							<TR>
+								<TH class="must">
+									<LABEL for="email">電子信箱</LABEL>
+								</TH>
+								<TD colspan="3">
+									<INPUT id="email" name="email" required="" type="text" value="{email}">
+								</TD>
+							</TR>
+							<TR>
+								<TH>
+									<LABEL for="industry">從事產業別</LABEL>
+								</TH>
+								<TD>
+									<INPUT id="industry" name="industry" type="text" value="{industry}">
+								</TD>
+								<TD colspan="2"></TD>
+							</TR>
+							<TR>
+								<TH class="must">
+									<LABEL for="shadow1">密碼設定</LABEL>
+								</TH>
+								<TD>
+									<INPUT id="shadow1" name="shadow1" required="" type="password">
+								</TD>
+								<TH class="must">
+									<LABEL for="shadow2">確認密碼</LABEL>
+								</TH>
+								<TD>
+									<INPUT id="shadow2" name="shadow2" required="" type="password">
+								</TD>
+							</TR>
+							<TR>
+								<TD colspan="4"></TD>
+							</TR>
+							<TR>
+								<TH>
+									<LABEL for="certificateOfProfitSeekingEnterprise">上傳營業登記圖檔</LABEL>
+								</TH>
+								<TD colspan="3">
+									<INPUT id="certificateOfProfitSeekingEnterprise" name="certificateOfProfitSeekingEnterprise" type="file">
+								</TD>
+							</TR>
+							<TR>
+								<TH>
+									<LABEL for="personInCharge">負責人身分證正反面圖檔</LABEL>
+								</TH>
+								<TD colspan="3">
+									<INPUT id="personInCharge" name="personInCharge" type="file">
+								</TD>
+							</TR>
+							<TR>
+								<TD></TD>
+								<TD colspan="3">
+									<DIV>營利事業登記證範例圖</DIV>
+									<IMG alt="營利事業登記證範例圖" src="/IMG/certificateOfProfitSeekingEnterprise.png">
+									<H2>請選擇</H2>
+								</TD>
+							</TR>
+							<TR>
+								<TH class="must">成為業務</TH>
+								<TD colspan="3">
+									<LABEL>
+										<INPUT name="supervisor" required="" type="radio" value="true">
+										<SPAN>A(業務處長)</SPAN>
+									</LABEL>
+									<LABEL>
+										<INPUT name="supervisor" required="" type="radio" value="false">
+										<SPAN>B(業務主任)</SPAN>
+									</LABEL>
+								</TD>
+							</TR>
+							<TR>
+								<TD style="text-align:center" colspan="4">
+									<IMG id="supervisor" alt="業務條件與收支試算" src="/IMG/spreadsheetAgent.png">
+								</TD>
+							</TR>
+							<TR>
+								<TD colspan="4">
+									<HR>
+								</TD>
+							</TR>
+							<TR>
+								<TD colspan="4">
+									<H1>線上合約法律條款說明</H1>
+									<DIV>
+										<OL>
+											<LI>微網店家線上合作招募旅圖觀止國際行銷股份有限公司：提供微網店家快速、優質、簡易和公平的網站交易平台微網店家線上合作招募旅圖觀止國際行銷股份有限公司提供</LI>
+											<LI>業務專才線上合作招募，在電子商務的紅海中，為您提供最好的藍海市場。業務專才線上合作招募，在電子商務的紅海中，為您提供最好的藍海市場。</LI>
+											<LI>微網店家旅圖觀止首頁廣告，微網店家線上合作招募旅圖觀止國際行銷股份有限公司微網店家旅圖觀止首頁廣告，微網店家線上合作招募旅圖觀止國際行銷股份有限公司</LI>
+											<LI>業界合作服務，業務專才線上合作招募，在電子商務的紅海中，為您提供最好的藍海市場。業界合作服務，業務專才線上合作招募，在電子商務的紅海中，為您提供最好的藍海市場。微網店家線上合作招募旅圖觀止國際行銷股份有限公司：提供微網店家快速、優質、簡易和公平的網站交易平台微網店家線上合作招募旅圖觀止國際行銷股份有限公司提供</LI>
+										</OL>
+									</DIV>
+								</TD>
+							</TR>
+							<TR>
+								<TD style="text-align:center" colspan="4">
+									<INPUT class="theButton" type="submit" value="確定送出">
+								</TD>
+							</TR>
+						</TABLE>
+					</FORM>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<FOOTER class="bottom">
+			<DIV class="bottomInfo">地址：苗栗縣苗栗市建功里莊敬街10巷5號1樓iۻ話：+886-37-351251e³真：+886-37-353127</DIV>
+			<DIV>旅圖觀止國際行銷股份有限公司 版權所有 ɠ2015 Tour Map Gps All Rights Reserved.</DIV>
+		</FOOTER>
+	</BODY>
+</HTML>

@@ -1,0 +1,13 @@
+/**
+ * @author	P-C Lin (a.k.a 高科技黑手)
+ */
+.button{padding:3px 8px;border:0;border-radius:3px;color:#FFF;cursor:default}
+.button[href],.button[type='button']{cursor:pointer}
+.blueButton{background-color:#3DB7F0}
+.greenButton{background-color:#4AB759}
+.pinkButton{background-color:#F763A3}
+.redButton{background-color:#FF5F5E}
+.yellowButton{background-color:#FFA93A}
+TABLE.heWeiKuan{width:100%}
+TABLE.heWeiKuan TH{padding:3px 0;background-color:#EF7F01;text-align:center}
+TABLE.heWeiKuan TD{padding:16px 3px;color:#000;background-color:#FCE6CE;text-align:center}

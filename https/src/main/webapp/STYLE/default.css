@@ -1,0 +1,17 @@
+/**
+ * @author	P-C Lin (a.k.a 高科技黑手)
+ */
+@font-face{font-family:'Bitstream Vera Sans Mono';font-style:normal;font-weight:normal;src:url('../FONT/VeraMono.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Bold';font-style:normal;font-weight:bold;src:url('../FONT/VeraMoBd.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Oblique';font-style:italic;font-weight:normal;src:url('../FONT/VeraMoIt.ttf') format('truetype')}
+@font-face{font-family:'Bitstream Vera Sans Mono Bold Oblique';font-style:italic;font-weight:bold;src:url('../FONT/VeraMoBI.ttf') format('truetype')}
+.bold{font-weight:bold}
+.cF{float:none;clear:both}
+.cF:before,.cF:after{display:inline-block;visibility:hidden;content:' '}
+.fL{float:left}
+.fR{float:right}
+.monospace{font-family:'Bitstream Vera Sans Mono','courier new',monospace}
+.must:before{content:'*';color:#C00}
+.taCenter{text-align:center}
+.taLeft{text-align:left}
+.taRight{text-align:right}

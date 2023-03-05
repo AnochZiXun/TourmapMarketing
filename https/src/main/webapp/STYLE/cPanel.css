@@ -1,0 +1,38 @@
+/**
+ * @author	P-C Lin (a.k.a 高科技黑手)
+ */
+BODY{margin:0;padding:0;color:#FFF;background:#373737 url(/IMG/BODY.png);font:12px 'georgia','新細明體',sans-serif}
+
+TABLE#cW{border-collapse:separate;border-spacing:3px;position:absolute;top:32px;left:0}
+TABLE#cW>TBODY>TR>TD{padding:3px;vertical-align:top}
+
+.ui-accordion .ui-accordion-content{padding:6px}
+ASIDE OL{margin:3px;padding:3px;list-style-position:inside}
+ASIDE A{line-height:24px;text-decoration:none}
+ASIDE A[href]:hover{border-bottom:1px dotted #FFF}
+
+NAV{position:fixed;top:0;right:0;left:0;height:32px;background-color:rgba(0,0,0,.6)}
+NAV A{padding:0 6px}
+NAV A,NAV SPAN{display:inline-block;line-height:32px;color:#FFF;cursor:default}
+NAV A[href]{text-decoration:none}
+NAV A[href]:hover{color:#FF9304;cursor:pointer}
+
+TABLE.list{border-collapse:collapse;border-spacing:3px;min-width:600px;cursor:default}
+TABLE.list INPUT[name='s']{width:16px;text-align:center}
+TABLE.list TH,TABLE.list TD{padding:3px 6px;border:1px solid rgba(255,147,4,.6);line-height:16px;vertical-align:middle}
+TABLE.list TH{color:#373737;background-color:#FF9304}
+TABLE.list TR.even>TD{background-color:rgba(255,147,4,.1)}
+TABLE.list TD>A[href]{vertical-align:middle;color:#FF9304;font-size:16px;text-decoration:none}
+TABLE.list TD>A[href]:hover{color:#FFF;cursor:pointer}
+
+.button,INPUT[type='reset'],INPUT[type='submit']{padding:3px 6px;border:1px solid;border-color:#FF9304;border-radius:3px;display:inline-block;line-height:16px;vertical-align:middle;color:#373737;background-color:#FF9304;font-size:100%;text-decoration:none;cursor:pointer}
+.button:hover,INPUT[type='reset']:hover,INPUT[type='submit']:hover{border-color:#FF9304;color:#FF9304;background-color:#373737}
+INPUT[type='password'],INPUT[type='text'],SELECT,TEXTAREA{padding:0 6px;border:1px dotted #9197A3;height:24px;font-family:'bitstream vera sans mono','courier new',monospace}
+INPUT[type='password']:focus,INPUT[type='text']:focus,SELECT:focus,TEXTAREA:focus{border:1px solid #26B3F7}
+TEXTAREA{padding:6px;width:512px;height:256px;font-family:'bitstream vera sans mono','courier new',monospace;font-size:12px;resize:none}
+
+FORM>FIELDSET{border:1px solid rgba(255,147,4,.6);display:inline-block}
+TABLE.form CAPTION{color:#C00}
+TABLE.form TH{text-align:right}
+TABLE.form TH:after{content:'：'}
+TABLE.form TH:before{content:'*';color:#FF9304;font-weight:bold;font-size:16px}

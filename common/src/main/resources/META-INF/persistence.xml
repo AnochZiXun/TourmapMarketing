@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		<non-jta-data-source>java:comp/env/jdbc/TourmapDS</non-jta-data-source>
+		<class>net.tourmap.marketing.entity.Announcement</class>
+		<class>net.tourmap.marketing.entity.FrequentlyAskedQuestion</class>
+		<class>net.tourmap.marketing.entity.Youtube</class>
+		<class>net.tourmap.marketing.entity.Bulletin</class>
+		<class>net.tourmap.marketing.entity.Administrator</class>
+		<class>net.tourmap.marketing.entity.CKEditor</class>
+		<class>net.tourmap.marketing.entity.Availability</class>
+		<class>net.tourmap.marketing.entity.Role</class>
+		<class>net.tourmap.marketing.entity.AllPayHistory</class>
+		<class>net.tourmap.marketing.entity.Account</class>
+		<properties>
+			<property name="eclipselink.jdbc.native-sql" value="true"/>
+			<property name="eclipselink.weaving" value="static"/>
+		</properties>
+	</persistence-unit>
+</persistence>

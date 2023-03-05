@@ -1,0 +1,16 @@
+/**
+ * @author	P-C Lin (a.k.a 高科技黑手)
+ */
+.theButton{padding:6px 8px;border:0;color:#FFF;background-color:#EF7E00;cursor:pointer}
+A#goToStep2{display:none}
+A#clickToAgree{border-bottom:1px dotted #EF7E00;color:#EF7E00}
+A#clickToAgree:hover{border-color:#FF9;color:#FF9;cursor:help}
+DIV#jDialog{display:none}
+DIV.rightContent FORM .must:before{content:'*';color:#EF7E00}
+DIV.rightContent FORM>TABLE{border-collapse:separate;border-spacing:6px}
+DIV.rightContent FORM>TABLE CAPTION{color:#F00;font-size:160%}
+DIV.rightContent FORM>TABLE TH{text-align:right}
+DIV.rightContent FORM>TABLE TH:after{content:'：'}
+DIV.rightContent FORM>TABLE TD{padding:6px;text-align:left}
+DIV.rightContent FORM>TABLE INPUT[type='password'],DIV.rightContent FORM>TABLE INPUT[type='text']{width:100%}
+DIV.rightContent FORM>TABLE INPUT#submit{display:none}
